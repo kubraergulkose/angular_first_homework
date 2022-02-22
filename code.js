@@ -4,7 +4,7 @@ function find (num,target) {
     {
       for (let b=a+1; b<num_length; b++) {
         if (( num [a] + num [b])==target) {
-            console.log (a,b)
+            console.log (` [${a},${b}]`)
         }
     
       }
